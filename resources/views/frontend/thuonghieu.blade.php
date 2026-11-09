@@ -12,7 +12,7 @@
 
     <div class="row g-4">
         <!-- Sidebar filters -->
-        <div class="col-lg-3 animate__animated animate__fadeInLeft">
+         <div class="col-lg-3 animate__animated animate__fadeInLeft">
             <div class="bg-dark p-4 border border-secondary border-opacity-25 rounded-0 sticky-top" style="top: 100px;">
                 <h5 class="text-gold tracking-widest text-uppercase mb-4 small">Thương hiệu</h5>
                 <ul class="list-unstyled mb-5">
