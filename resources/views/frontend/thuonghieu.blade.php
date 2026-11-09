@@ -21,7 +21,7 @@
                             <i class="fa-solid fa-angle-right me-2 text-gold" style="font-size: 0.7em;"></i> Tất cả thương hiệu
                         </a>
                     </li>
-                    @foreach($hangsanxuat as $hang)
+                     @foreach($hangsanxuat as $hang)
                     <li class="mb-2">
                         <a href="{{ route('frontend.thuonghieu.theohang', ['tenhang_slug' => $hang->tenhang_slug]) }}" class="text-decoration-none transition-all {{ request()->route('tenhang_slug') == $hang->tenhang_slug ? 'text-white fw-bold' : 'text-secondary hover-white' }}">
                             <i class="fa-solid fa-angle-right me-2 text-gold" style="font-size: 0.7em;"></i> {{ $hang->tenhang }}
