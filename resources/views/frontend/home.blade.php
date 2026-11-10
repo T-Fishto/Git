@@ -105,7 +105,7 @@
 </section>
  
 <!-- Store Offers & Utilities -->
-<section class="py-5 bg-dark border-top border-secondary border-opacity-25 animate__animated animate__fadeIn">
+<section      class="py-5 bg-dark border-top border-secondary border-opacity-25 animate__animated animate__fadeIn">
     <div class="container py-4">
         <div class="text-center mb-5">
             <h5 class="text-gold tracking-widest text-uppercase mb-1 small">Giá trị cốt lõi</h5>
