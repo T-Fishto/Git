@@ -14,7 +14,7 @@
         </nav>
     </div>
     <!-- Header -->
-    <div class="container mb-5">
+       <div class="container mb-5">
         <div class="row justify-content-center">
             <div class="col-lg-10 text-center">
                 <a href="{{ route('frontend.baiviet.theochude', ['tenchude_slug' => $baiviet->ChuDe->tenchude_slug]) }}" class="text-gold text-decoration-none small text-uppercase tracking-widest mb-3 d-block">{{ $baiviet->ChuDe->tenchude }}</a>
