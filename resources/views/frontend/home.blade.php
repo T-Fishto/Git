@@ -15,7 +15,7 @@
                 </div>
             </div>
         </div>
-        <div class="carousel-item" style="height: 90vh; background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?q=80&w=2070&auto=format&fit=crop') center/cover;">
+        <div        class="carousel-item" style="height: 90vh; background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?q=80&w=2070&auto=format&fit=crop') center/cover;">
             <div class="carousel-caption d-md-block text-center h-100" style="top: 35%;">
                 <div class="container">
                     <h5 class="text-gold tracking-widest text-uppercase">Đẳng cấp quý ông</h5>
