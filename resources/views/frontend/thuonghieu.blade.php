@@ -12,7 +12,7 @@
 
     <div class="row g-4">
         <!-- Sidebar filters -->
-        <div class="col-lg-3 animate__animated animate__fadeInLeft">
+         <div class="col-lg-3 animate__animated animate__fadeInLeft">
             <div class="bg-dark p-4 border border-secondary border-opacity-25 rounded-0 sticky-top" style="top: 100px;">
                 <h5 class="text-gold tracking-widest text-uppercase mb-4 small">Thương hiệu</h5>
                 <ul class="list-unstyled mb-5">
@@ -21,7 +21,7 @@
                             <i class="fa-solid fa-angle-right me-2 text-gold" style="font-size: 0.7em;"></i> Tất cả thương hiệu
                         </a>
                     </li>
-                    @foreach($hangsanxuat as $hang)
+                     @foreach($hangsanxuat as $hang)
                     <li class="mb-2">
                         <a href="{{ route('frontend.thuonghieu.theohang', ['tenhang_slug' => $hang->tenhang_slug]) }}" class="text-decoration-none transition-all {{ request()->route('tenhang_slug') == $hang->tenhang_slug ? 'text-white fw-bold' : 'text-secondary hover-white' }}">
                             <i class="fa-solid fa-angle-right me-2 text-gold" style="font-size: 0.7em;"></i> {{ $hang->tenhang }}

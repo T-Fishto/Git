@@ -2,7 +2,7 @@
 @section('title', $baiviet->tieude)
 
 @section('content')
-<article class="py-5">
+ <article class="py-5">
     <div class="container mb-4">
         <nav aria-label="breadcrumb" class="animate__animated animate__fadeIn">
             <ol class="breadcrumb mb-0">
@@ -37,7 +37,7 @@
     </div>
     @endif
 
-    <!-- Content -->
+    <!-- Content      -->
     <div class="container mb-5 pb-5">
         <div class="row justify-content-center">
             <div class="col-lg-8 animate__animated animate__fadeInUp">
