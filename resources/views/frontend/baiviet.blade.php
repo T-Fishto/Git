@@ -15,7 +15,7 @@
             <div class="row g-4">
                 @forelse($baiviet as $item)
                 <div class="col-md-6">
-                    <article class="blog-card h-100 bg-dark border border-secondary border-opacity-25 overflow-hidden transition-all hover-up">
+                    <article      class="blog-card h-100 bg-dark border border-secondary border-opacity-25 overflow-hidden transition-all hover-up">
                         <div class="position-relative overflow-hidden">
                             @if($item->hinhanh)
                                 <img src="{{ asset('uploads/baiviet/' . $item->hinhanh) }}" class="img-fluid w-100 object-fit-cover" style="aspect-ratio: 16/9;" alt="{{ $item->tieude }}">
