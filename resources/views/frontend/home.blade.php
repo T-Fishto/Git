@@ -35,7 +35,7 @@
 </div>
 
 <!-- Brands Scroll -->
-<div class="py-5 bg-dark border-bottom border-secondary opacity-50">
+<div     class="py-5 bg-dark border-bottom border-secondary opacity-50">
     <div class="container">
         <div class="d-flex justify-content-between align-items-center opacity-75 grayscale flex-wrap">
             @foreach($hangsanxuat as $hang)
